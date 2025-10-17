@@ -1,0 +1,2758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by libAntimony version v3.0.0 with libSBML version 5.20.5. -->
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model metaid="__main" id="__main">
+    <listOfCompartments>
+      <compartment sboTerm="SBO:0000410" id="default_compartment" spatialDimensions="3" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="y0" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y1" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y14" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y11" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y10" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y9" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y4" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y12" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y7" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y6" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y8" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y3" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y13" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y5" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y16" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y2" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="y15" compartment="default_compartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="k64" value="0.607569440475737" constant="true"/>
+      <parameter id="k8" value="750.374906296846" constant="true"/>
+      <parameter id="k66" value="173.25" constant="true"/>
+      <parameter id="k26" value="5" constant="true"/>
+      <parameter id="k45" value="1.06066017177982" constant="true"/>
+      <parameter id="k47" value="0.353553390593274" constant="true"/>
+      <parameter id="k18" value="5" constant="true"/>
+      <parameter id="k31" value="0.353553390593274" constant="true"/>
+      <parameter id="k32" value="1.06066017177982" constant="true"/>
+      <parameter id="k56" value="0.202523146825246" constant="true"/>
+      <parameter id="k13" value="250.124968765615" constant="true"/>
+      <parameter id="k49" value="0.202523146825246" constant="true"/>
+      <parameter id="k50" value="0.202523146825246" constant="true"/>
+      <parameter id="k58" value="0.607569440475737" constant="true"/>
+      <parameter id="k59" value="0.810092587300983" constant="true"/>
+      <parameter id="k60" value="0.810092587300983" constant="true"/>
+      <parameter id="k61" value="0.810092587300983" constant="true"/>
+      <parameter id="k62" value="0.810092587300983" constant="true"/>
+      <parameter id="k63" value="0.810092587300983" constant="true"/>
+      <parameter id="k65" value="0.810092587300983" constant="true"/>
+      <parameter id="k51" value="0.607569440475737" constant="true"/>
+      <parameter id="k52" value="0.202523146825246" constant="true"/>
+      <parameter id="k53" value="0.405046293650491" constant="true"/>
+      <parameter id="k54" value="0.405046293650491" constant="true"/>
+      <parameter id="k55" value="0.607569440475737" constant="true"/>
+      <parameter id="k57" value="0.405046293650491" constant="true"/>
+      <parameter id="k16" value="250.124968765615" constant="true"/>
+      <parameter id="k0" value="250.124968765615" constant="true"/>
+      <parameter id="k21" value="1.25" constant="true"/>
+      <parameter id="k36" value="0.707106781186548" constant="true"/>
+      <parameter id="k37" value="0.707106781186548" constant="true"/>
+      <parameter id="k5" value="750.374906296846" constant="true"/>
+      <parameter id="k9" value="500.249937531231" constant="true"/>
+      <parameter id="k7" value="1000.49987506246" constant="true"/>
+      <parameter id="k6" value="1000.49987506246" constant="true"/>
+      <parameter id="k11" value="250.124968765615" constant="true"/>
+      <parameter id="k23" value="1.25" constant="true"/>
+      <parameter id="k40" value="1.4142135623731" constant="true"/>
+      <parameter id="k42" value="0.707106781186548" constant="true"/>
+      <parameter id="k29" value="22.3606797749979" constant="true"/>
+      <parameter id="k27" value="5" constant="true"/>
+      <parameter id="k46" value="1.06066017177982" constant="true"/>
+      <parameter id="k48" value="1.4142135623731" constant="true"/>
+      <parameter id="k30" value="0.353553390593274" constant="true"/>
+      <parameter id="k17" value="0.612372435695794" constant="true"/>
+      <parameter id="k10" value="500.249937531231" constant="true"/>
+      <parameter id="k15" value="750.374906296846" constant="true"/>
+      <parameter id="k12" value="1000.49987506246" constant="true"/>
+      <parameter id="k22" value="1.25" constant="true"/>
+      <parameter id="k39" value="1.4142135623731" constant="true"/>
+      <parameter id="k41" value="0.353553390593274" constant="true"/>
+      <parameter id="k19" value="2.5" constant="true"/>
+      <parameter id="k33" value="0.353553390593274" constant="true"/>
+      <parameter id="k34" value="0.707106781186548" constant="true"/>
+      <parameter id="k2" value="500.249937531231" constant="true"/>
+      <parameter id="k4" value="1000.49987506246" constant="true"/>
+      <parameter id="k1" value="750.374906296846" constant="true"/>
+      <parameter id="k14" value="1000.49987506246" constant="true"/>
+      <parameter id="k28" value="11.1803398874989" constant="true"/>
+      <parameter id="k3" value="1000.49987506246" constant="true"/>
+      <parameter id="k43" value="1.06066017177982" constant="true"/>
+      <parameter id="k44" value="1.06066017177982" constant="true"/>
+      <parameter id="k20" value="3.75" constant="true"/>
+      <parameter id="k35" value="1.4142135623731" constant="true"/>
+      <parameter id="k38" value="1.06066017177982" constant="true"/>
+      <parameter id="k25" value="3.75" constant="true"/>
+      <parameter id="k24" value="2.5" constant="true"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="J0" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k64 </ci>
+                <ci> k8 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J1" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y1" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y14"/>
+          <modifierSpeciesReference species="y11"/>
+          <modifierSpeciesReference species="y10"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y14 </ci>
+                <ci> k26 </ci>
+                <ci> y11 </ci>
+                <ci> y10 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k45 </ci>
+                  <ci> k47 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k47 </ci>
+                  <ci> y11 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k45 </ci>
+                  <ci> y10 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y11 </ci>
+                  <ci> y10 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J2" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y9" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y14"/>
+          <modifierSpeciesReference species="y11"/>
+          <modifierSpeciesReference species="y10"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y14 </ci>
+                <ci> k26 </ci>
+                <ci> y11 </ci>
+                <ci> y10 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k45 </ci>
+                  <ci> k47 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k47 </ci>
+                  <ci> y11 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k45 </ci>
+                  <ci> y10 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y11 </ci>
+                  <ci> y10 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J3" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y10" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y14"/>
+          <modifierSpeciesReference species="y11"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y14 </ci>
+                <ci> k26 </ci>
+                <ci> y11 </ci>
+                <ci> y10 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k45 </ci>
+                  <ci> k47 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k47 </ci>
+                  <ci> y11 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k45 </ci>
+                  <ci> y10 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y11 </ci>
+                  <ci> y10 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J4" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y11" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y14"/>
+          <modifierSpeciesReference species="y10"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y14 </ci>
+                <ci> k26 </ci>
+                <ci> y11 </ci>
+                <ci> y10 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k45 </ci>
+                  <ci> k47 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k47 </ci>
+                  <ci> y11 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k45 </ci>
+                  <ci> y10 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y11 </ci>
+                  <ci> y10 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J5" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y4" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y12"/>
+          <modifierSpeciesReference species="y7"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y12 </ci>
+                <ci> k18 </ci>
+                <ci> y7 </ci>
+                <ci> y4 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k31 </ci>
+                  <ci> k32 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k32 </ci>
+                  <ci> y7 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k31 </ci>
+                  <ci> y4 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y7 </ci>
+                  <ci> y4 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J6" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y6" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y4"/>
+          <modifierSpeciesReference species="y12"/>
+          <modifierSpeciesReference species="y7"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y12 </ci>
+                <ci> k18 </ci>
+                <ci> y7 </ci>
+                <ci> y4 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k31 </ci>
+                  <ci> k32 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k32 </ci>
+                  <ci> y7 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k31 </ci>
+                  <ci> y4 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y7 </ci>
+                  <ci> y4 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J7" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y7" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y4"/>
+          <modifierSpeciesReference species="y12"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y12 </ci>
+                <ci> k18 </ci>
+                <ci> y7 </ci>
+                <ci> y4 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k31 </ci>
+                  <ci> k32 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k32 </ci>
+                  <ci> y7 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k31 </ci>
+                  <ci> y4 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y7 </ci>
+                  <ci> y4 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J8" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y8" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y4"/>
+          <modifierSpeciesReference species="y12"/>
+          <modifierSpeciesReference species="y7"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y12 </ci>
+                <ci> k18 </ci>
+                <ci> y7 </ci>
+                <ci> y4 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k31 </ci>
+                  <ci> k32 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k32 </ci>
+                  <ci> y7 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k31 </ci>
+                  <ci> y4 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y7 </ci>
+                  <ci> y4 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J9" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y10" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k56 </ci>
+                <ci> k13 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J10" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y4" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y4 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J11" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y8" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k54 </ci>
+                <ci> k16 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J12" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y6" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y6 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J13" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y7" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k62 </ci>
+                <ci> k0 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J14" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y3" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y4"/>
+          <modifierSpeciesReference species="y13"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y13 </ci>
+                <ci> k21 </ci>
+                <ci> y3 </ci>
+                <ci> y4 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k36 </ci>
+                  <ci> k37 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k37 </ci>
+                  <ci> y3 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k36 </ci>
+                  <ci> y4 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y3 </ci>
+                  <ci> y4 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J15" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y4" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y3"/>
+          <modifierSpeciesReference species="y13"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y13 </ci>
+                <ci> k21 </ci>
+                <ci> y3 </ci>
+                <ci> y4 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k36 </ci>
+                  <ci> k37 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k37 </ci>
+                  <ci> y3 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k36 </ci>
+                  <ci> y4 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y3 </ci>
+                  <ci> y4 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J16" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y5" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y4"/>
+          <modifierSpeciesReference species="y3"/>
+          <modifierSpeciesReference species="y13"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y13 </ci>
+                <ci> k21 </ci>
+                <ci> y3 </ci>
+                <ci> y4 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k36 </ci>
+                  <ci> k37 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k37 </ci>
+                  <ci> y3 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k36 </ci>
+                  <ci> y4 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y3 </ci>
+                  <ci> y4 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J17" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y6" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y4"/>
+          <modifierSpeciesReference species="y3"/>
+          <modifierSpeciesReference species="y13"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y13 </ci>
+                <ci> k21 </ci>
+                <ci> y3 </ci>
+                <ci> y4 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k36 </ci>
+                  <ci> k37 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k37 </ci>
+                  <ci> y3 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k36 </ci>
+                  <ci> y4 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y3 </ci>
+                  <ci> y4 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J18" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y3" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y3 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J19" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y1" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k53 </ci>
+                <ci> k5 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J20" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y8" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y8 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J21" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y16" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k51 </ci>
+                <ci> k9 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J22" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y13" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k59 </ci>
+                <ci> k7 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J23" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y12" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y12 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J24" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y3" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k57 </ci>
+                <ci> k6 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J25" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y6" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k60 </ci>
+                <ci> k11 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J26" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y9" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y9 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J27" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y1"/>
+          <modifierSpeciesReference species="y16"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y16 </ci>
+                <ci> k23 </ci>
+                <ci> y1 </ci>
+                <ci> y0 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k40 </ci>
+                  <ci> k42 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k42 </ci>
+                  <ci> y1 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k40 </ci>
+                  <ci> y0 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y1 </ci>
+                  <ci> y0 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J28" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y1" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y0"/>
+          <modifierSpeciesReference species="y16"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y16 </ci>
+                <ci> k23 </ci>
+                <ci> y1 </ci>
+                <ci> y0 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k40 </ci>
+                  <ci> k42 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k42 </ci>
+                  <ci> y1 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k40 </ci>
+                  <ci> y0 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y1 </ci>
+                  <ci> y0 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J29" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y2" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y0"/>
+          <modifierSpeciesReference species="y1"/>
+          <modifierSpeciesReference species="y16"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y16 </ci>
+                <ci> k23 </ci>
+                <ci> y1 </ci>
+                <ci> y0 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k40 </ci>
+                  <ci> k42 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k42 </ci>
+                  <ci> y1 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k40 </ci>
+                  <ci> y0 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y1 </ci>
+                  <ci> y0 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J30" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y3" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y0"/>
+          <modifierSpeciesReference species="y1"/>
+          <modifierSpeciesReference species="y16"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y16 </ci>
+                <ci> k23 </ci>
+                <ci> y1 </ci>
+                <ci> y0 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k40 </ci>
+                  <ci> k42 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k42 </ci>
+                  <ci> y1 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k40 </ci>
+                  <ci> y0 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y1 </ci>
+                  <ci> y0 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J31" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y5" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k29 </ci>
+              <ci> y5 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J32" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y7" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y5"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k29 </ci>
+              <ci> y5 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J33" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y1" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y1 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J34" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y1" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y14"/>
+          <modifierSpeciesReference species="y9"/>
+          <modifierSpeciesReference species="y2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y14 </ci>
+                <ci> k27 </ci>
+                <ci> y1 </ci>
+                <ci> y9 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> k46 </ci>
+                    <ci> k48 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> k48 </ci>
+                    <ci> y1 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> k46 </ci>
+                    <ci> y9 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> y1 </ci>
+                    <ci> y9 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <plus/>
+                    <cn type="integer"> 1 </cn>
+                    <apply>
+                      <divide/>
+                      <ci> y2 </ci>
+                      <ci> k30 </ci>
+                    </apply>
+                  </apply>
+                  <ci> k17 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J35" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y9" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y1"/>
+          <modifierSpeciesReference species="y14"/>
+          <modifierSpeciesReference species="y2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y14 </ci>
+                <ci> k27 </ci>
+                <ci> y1 </ci>
+                <ci> y9 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> k46 </ci>
+                    <ci> k48 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> k48 </ci>
+                    <ci> y1 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> k46 </ci>
+                    <ci> y9 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> y1 </ci>
+                    <ci> y9 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <plus/>
+                    <cn type="integer"> 1 </cn>
+                    <apply>
+                      <divide/>
+                      <ci> y2 </ci>
+                      <ci> k30 </ci>
+                    </apply>
+                  </apply>
+                  <ci> k17 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J36" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y10" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y1"/>
+          <modifierSpeciesReference species="y14"/>
+          <modifierSpeciesReference species="y9"/>
+          <modifierSpeciesReference species="y2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y14 </ci>
+                <ci> k27 </ci>
+                <ci> y1 </ci>
+                <ci> y9 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> k46 </ci>
+                    <ci> k48 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> k48 </ci>
+                    <ci> y1 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> k46 </ci>
+                    <ci> y9 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> y1 </ci>
+                    <ci> y9 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <plus/>
+                    <cn type="integer"> 1 </cn>
+                    <apply>
+                      <divide/>
+                      <ci> y2 </ci>
+                      <ci> k30 </ci>
+                    </apply>
+                  </apply>
+                  <ci> k17 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J37" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y11" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y1"/>
+          <modifierSpeciesReference species="y14"/>
+          <modifierSpeciesReference species="y9"/>
+          <modifierSpeciesReference species="y2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y14 </ci>
+                <ci> k27 </ci>
+                <ci> y1 </ci>
+                <ci> y9 </ci>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> k46 </ci>
+                    <ci> k48 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> k48 </ci>
+                    <ci> y1 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> k46 </ci>
+                    <ci> y9 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> y1 </ci>
+                    <ci> y9 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <power/>
+                  <apply>
+                    <plus/>
+                    <cn type="integer"> 1 </cn>
+                    <apply>
+                      <divide/>
+                      <ci> y2 </ci>
+                      <ci> k30 </ci>
+                    </apply>
+                  </apply>
+                  <ci> k17 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J38" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y4" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k49 </ci>
+                <ci> k10 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J39" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y14" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y14 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J40" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y5" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y5 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J41" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y9" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k55 </ci>
+                <ci> k15 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J42" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y15" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k63 </ci>
+                <ci> k12 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J43" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y2" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y2 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J44" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y16" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y16 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J45" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y0" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y3"/>
+          <modifierSpeciesReference species="y16"/>
+          <modifierSpeciesReference species="y2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y16 </ci>
+                <ci> k22 </ci>
+                <ci> y2 </ci>
+                <ci> y3 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k39 </ci>
+                  <ci> k41 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k41 </ci>
+                  <ci> y2 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k39 </ci>
+                  <ci> y3 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y2 </ci>
+                  <ci> y3 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J46" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y1" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y3"/>
+          <modifierSpeciesReference species="y16"/>
+          <modifierSpeciesReference species="y2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y16 </ci>
+                <ci> k22 </ci>
+                <ci> y2 </ci>
+                <ci> y3 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k39 </ci>
+                  <ci> k41 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k41 </ci>
+                  <ci> y2 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k39 </ci>
+                  <ci> y3 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y2 </ci>
+                  <ci> y3 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J47" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y2" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y3"/>
+          <modifierSpeciesReference species="y16"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y16 </ci>
+                <ci> k22 </ci>
+                <ci> y2 </ci>
+                <ci> y3 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k39 </ci>
+                  <ci> k41 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k41 </ci>
+                  <ci> y2 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k39 </ci>
+                  <ci> y3 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y2 </ci>
+                  <ci> y3 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J48" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y3" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y16"/>
+          <modifierSpeciesReference species="y2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y16 </ci>
+                <ci> k22 </ci>
+                <ci> y2 </ci>
+                <ci> y3 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k39 </ci>
+                  <ci> k41 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k41 </ci>
+                  <ci> y2 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k39 </ci>
+                  <ci> y3 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y2 </ci>
+                  <ci> y3 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J49" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y4" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y12"/>
+          <modifierSpeciesReference species="y6"/>
+          <modifierSpeciesReference species="y8"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y12 </ci>
+                <ci> k19 </ci>
+                <ci> y6 </ci>
+                <ci> y8 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k33 </ci>
+                  <ci> k34 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k34 </ci>
+                  <ci> y6 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k33 </ci>
+                  <ci> y8 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y6 </ci>
+                  <ci> y8 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J50" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y6" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y12"/>
+          <modifierSpeciesReference species="y8"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y12 </ci>
+                <ci> k19 </ci>
+                <ci> y6 </ci>
+                <ci> y8 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k33 </ci>
+                  <ci> k34 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k34 </ci>
+                  <ci> y6 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k33 </ci>
+                  <ci> y8 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y6 </ci>
+                  <ci> y8 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J51" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y7" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y12"/>
+          <modifierSpeciesReference species="y6"/>
+          <modifierSpeciesReference species="y8"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y12 </ci>
+                <ci> k19 </ci>
+                <ci> y6 </ci>
+                <ci> y8 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k33 </ci>
+                  <ci> k34 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k34 </ci>
+                  <ci> y6 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k33 </ci>
+                  <ci> y8 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y6 </ci>
+                  <ci> y8 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J52" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y8" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y12"/>
+          <modifierSpeciesReference species="y6"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y12 </ci>
+                <ci> k19 </ci>
+                <ci> y6 </ci>
+                <ci> y8 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k33 </ci>
+                  <ci> k34 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k34 </ci>
+                  <ci> y6 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k33 </ci>
+                  <ci> y8 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y6 </ci>
+                  <ci> y8 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J53" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y5" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k58 </ci>
+                <ci> k2 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J54" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y7" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y7 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J55" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y10" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y10 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J56" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y11" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y11 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J57" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y0" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y0 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J58" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y11" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k65 </ci>
+                <ci> k4 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J59" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y12" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k50 </ci>
+                <ci> k1 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J60" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y14" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k61 </ci>
+                <ci> k14 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J61" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y13" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y13 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J62" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y5" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y7"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k28 </ci>
+              <ci> y7 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J63" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y7" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k28 </ci>
+              <ci> y7 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J64" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y2" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k52 </ci>
+                <ci> k3 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J65" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y8" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y9"/>
+          <modifierSpeciesReference species="y15"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y15 </ci>
+                <ci> k43 </ci>
+                <ci> y9 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> k43 </ci>
+                <ci> y9 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J66" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y9" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y15"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y15 </ci>
+                <ci> k43 </ci>
+                <ci> y9 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> k43 </ci>
+                <ci> y9 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J67" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y8" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y15"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y15 </ci>
+                <ci> k44 </ci>
+                <ci> y8 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> k44 </ci>
+                <ci> y8 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J68" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y9" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y8"/>
+          <modifierSpeciesReference species="y15"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y15 </ci>
+                <ci> k44 </ci>
+                <ci> y8 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> k44 </ci>
+                <ci> y8 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J69" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y15" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k49 </ci>
+                  <ci> k50 </ci>
+                  <ci> k58 </ci>
+                  <ci> k59 </ci>
+                  <ci> k60 </ci>
+                  <ci> k61 </ci>
+                  <ci> k62 </ci>
+                  <ci> k63 </ci>
+                  <ci> k64 </ci>
+                  <ci> k65 </ci>
+                  <ci> k51 </ci>
+                  <ci> k52 </ci>
+                  <ci> k53 </ci>
+                  <ci> k54 </ci>
+                  <ci> k55 </ci>
+                  <ci> k56 </ci>
+                  <ci> k57 </ci>
+                </apply>
+                <ci> y15 </ci>
+              </apply>
+              <ci> k66 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J70" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y3" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y6"/>
+          <modifierSpeciesReference species="y13"/>
+          <modifierSpeciesReference species="y5"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y13 </ci>
+                <ci> k20 </ci>
+                <ci> y5 </ci>
+                <ci> y6 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k35 </ci>
+                  <ci> k38 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k38 </ci>
+                  <ci> y5 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k35 </ci>
+                  <ci> y6 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y5 </ci>
+                  <ci> y6 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J71" reversible="true">
+        <listOfProducts>
+          <speciesReference species="y4" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y6"/>
+          <modifierSpeciesReference species="y13"/>
+          <modifierSpeciesReference species="y5"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y13 </ci>
+                <ci> k20 </ci>
+                <ci> y5 </ci>
+                <ci> y6 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k35 </ci>
+                  <ci> k38 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k38 </ci>
+                  <ci> y5 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k35 </ci>
+                  <ci> y6 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y5 </ci>
+                  <ci> y6 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J72" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y5" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y6"/>
+          <modifierSpeciesReference species="y13"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y13 </ci>
+                <ci> k20 </ci>
+                <ci> y5 </ci>
+                <ci> y6 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k35 </ci>
+                  <ci> k38 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k38 </ci>
+                  <ci> y5 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k35 </ci>
+                  <ci> y6 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y5 </ci>
+                  <ci> y6 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="J73" reversible="true">
+        <listOfReactants>
+          <speciesReference species="y6" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="y13"/>
+          <modifierSpeciesReference species="y5"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> y13 </ci>
+                <ci> k20 </ci>
+                <ci> y5 </ci>
+                <ci> y6 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k35 </ci>
+                  <ci> k38 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k38 </ci>
+                  <ci> y5 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> k35 </ci>
+                  <ci> y6 </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> y5 </ci>
+                  <ci> y6 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
