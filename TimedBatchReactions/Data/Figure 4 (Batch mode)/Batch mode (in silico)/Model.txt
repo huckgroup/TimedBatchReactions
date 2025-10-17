@@ -1,0 +1,23 @@
+Pentose Phosphate Pathwat (Note the enzymes that normally flow into the reactor are set to zero)
+
+
+model = """  -  (( ( HK * k_cat_(HK:ATP_Glucose) ) * ATP * Glucose )  ) / ( ( ( k_m_(HK:ATP) * k_m_(HK:Glucose) ) + ( k_m_(HK:Glucose) * ATP ) + ( k_m_(HK:ATP) * Glucose ) + ( ATP * Glucose ) ) ) 
+   -  (( ( HK * k_cat_(HK:ATP_Glucose) ) * ATP * Glucose )  ) / ( ( ( k_m_(HK:ATP) * k_m_(HK:Glucose) ) + ( k_m_(HK:Glucose) * ATP ) + ( k_m_(HK:ATP) * Glucose ) + ( ATP * Glucose ) ) )  -  (( ( PRPPS * k_cat_(PRPPS:ATP_R5P) ) * ATP * R5P )  ) / ( ( ( k_m_(PRPPS:ATP) * k_m_(PRPPS:R5P) ) + ( k_m_(PRPPS:R5P) * ATP ) + ( k_m_(PRPPS:ATP) * R5P ) + ( ATP * R5P ) ) *  ( ( 1 + ( ADP / k_inh_(PRPPS:ADP) ) ) ** k_N_inh(PRPPS:ADP) )  ) 
+   +  (( ( HK * k_cat_(HK:ATP_Glucose) ) * ATP * Glucose )  ) / ( ( ( k_m_(HK:ATP) * k_m_(HK:Glucose) ) + ( k_m_(HK:Glucose) * ATP ) + ( k_m_(HK:ATP) * Glucose ) + ( ATP * Glucose ) ) ) 
+   -  (( ( G6PDH * k_cat_(G6PDH:G6P_NADP) ) * G6P * NADP )  ) / ( ( ( k_m_(G6PDH:G6P) * k_m_(G6PDH:NADP) ) + ( k_m_(G6PDH:NADP) * G6P ) + ( k_m_(G6PDH:G6P) * NADP ) + ( G6P * NADP ) ) )     +  (( ( HK * k_cat_(HK:ATP_Glucose) ) * ATP * Glucose )  ) / ( ( ( k_m_(HK:ATP) * k_m_(HK:Glucose) ) + ( k_m_(HK:Glucose) * ATP ) + ( k_m_(HK:ATP) * Glucose ) + ( ATP * Glucose ) ) )  
+   -  (( ( G6PDH * k_cat_(G6PDH:G6P_NADP) ) * G6P * NADP )  ) / ( ( ( k_m_(G6PDH:G6P) * k_m_(G6PDH:NADP) ) + ( k_m_(G6PDH:NADP) * G6P ) + ( k_m_(G6PDH:G6P) * NADP ) + ( G6P * NADP ) ) )     -  (( ( 6PGDH * k_cat_(6PGDH:6PGA_NADP) ) * 6PGA * NADP )  ) / ( ( ( k_m_(6PGDH:6PGA) * k_m_(6PGDH:NADP) ) + ( k_m_(6PGDH:NADP) * 6PGA ) + ( k_m_(6PGDH:6PGA) * NADP ) + ( 6PGA * NADP ) ) )  
+   +  (( ( G6PDH * k_cat_(G6PDH:G6P_NADP) ) * G6P * NADP )  ) / ( ( ( k_m_(G6PDH:G6P) * k_m_(G6PDH:NADP) ) + ( k_m_(G6PDH:NADP) * G6P ) + ( k_m_(G6PDH:G6P) * NADP ) + ( G6P * NADP ) ) )   - k_fwd_6PGL * 6PGL 
+   +  (( ( G6PDH * k_cat_(G6PDH:G6P_NADP) ) * G6P * NADP )  ) / ( ( ( k_m_(G6PDH:G6P) * k_m_(G6PDH:NADP) ) + ( k_m_(G6PDH:NADP) * G6P ) + ( k_m_(G6PDH:G6P) * NADP ) + ( G6P * NADP ) ) )     +  (( ( 6PGDH * k_cat_(6PGDH:6PGA_NADP) ) * 6PGA * NADP )  ) / ( ( ( k_m_(6PGDH:6PGA) * k_m_(6PGDH:NADP) ) + ( k_m_(6PGDH:NADP) * 6PGA ) + ( k_m_(6PGDH:6PGA) * NADP ) + ( 6PGA * NADP ) ) ) 
+   + k_fwd_6PGL * 6PGL    -  (( ( 6PGDH * k_cat_(6PGDH:6PGA_NADP) ) * 6PGA * NADP )  ) / ( ( ( k_m_(6PGDH:6PGA) * k_m_(6PGDH:NADP) ) + ( k_m_(6PGDH:NADP) * 6PGA ) + ( k_m_(6PGDH:6PGA) * NADP ) + ( 6PGA * NADP ) ) ) 
+   + ( ( ( ( PRI * k_m_(PRI:R5P) ) * R5P )   ) / ( ( k_m_(PRI:R5P)  + R5P )  ) ) - ( ( ( ( PRI * k_m_(PRI:RU5P) ) * RU5P )   ) / ( ( k_m_(PRI:RU5P)  + RU5P )  ) )    +  (( ( 6PGDH * k_cat_(6PGDH:6PGA_NADP) ) * 6PGA * NADP )  ) / ( ( ( k_m_(6PGDH:6PGA) * k_m_(6PGDH:NADP) ) + ( k_m_(6PGDH:NADP) * 6PGA ) + ( k_m_(6PGDH:6PGA) * NADP ) + ( 6PGA * NADP ) ) ) 
+   - ( ( ( ( PRI * k_m_(PRI:R5P) ) * R5P )   ) / ( ( k_m_(PRI:R5P)  + R5P )  ) )    -  (( ( PRPPS * k_cat_(PRPPS:ATP_R5P) ) * ATP * R5P )  ) / ( ( ( k_m_(PRPPS:ATP) * k_m_(PRPPS:R5P) ) + ( k_m_(PRPPS:R5P) * ATP ) + ( k_m_(PRPPS:ATP) * R5P ) + ( ATP * R5P ) ) *  ( ( 1 + ( ADP / k_inh_(PRPPS:ADP) ) ) ** k_N_inh(PRPPS:ADP) )  )     + ( ( ( ( PRI * k_m_(PRI:RU5P) ) * RU5P )   ) / ( ( k_m_(PRI:RU5P)  + RU5P )  ) ) 
+   +  (( ( PRPPS * k_cat_(PRPPS:ATP_R5P) ) * ATP * R5P )  ) / ( ( ( k_m_(PRPPS:ATP) * k_m_(PRPPS:R5P) ) + ( k_m_(PRPPS:R5P) * ATP ) + ( k_m_(PRPPS:ATP) * R5P ) + ( ATP * R5P ) ) *  ( ( 1 + ( ADP / k_inh_(PRPPS:ADP) ) ) ** k_N_inh(PRPPS:ADP) )  ) 
+   +  (( ( PRPPS * k_cat_(PRPPS:ATP_R5P) ) * ATP * R5P )  ) / ( ( ( k_m_(PRPPS:ATP) * k_m_(PRPPS:R5P) ) + ( k_m_(PRPPS:R5P) * ATP ) + ( k_m_(PRPPS:ATP) * R5P ) + ( ATP * R5P ) ) *  ( ( 1 + ( ADP / k_inh_(PRPPS:ADP) ) ) ** k_N_inh(PRPPS:ADP) )  )
+   + 0
+   + 0
+   + 0
+   + 0
+   + 0 """
+   
+states = ['Glucose', 'ATP', 'ADP', 'G6P', 'NADP', '6PGL', 'NADPH', '6PGA', 'RU5P', 'R5P', 'PRPP', 'AMP', 'HK', 'G6PDH', '6PGDH', 'PRI', 'PRPPS']
+
